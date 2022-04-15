@@ -1,0 +1,24 @@
+.linkURLS{
+    display: flex;
+    width: 25vw;
+    margin-left: 0;
+    margin-right: 0;
+    margin: auto;
+    margin-top: 10vh;
+}
+
+.linkURLS > a{
+    margin-left: 20px;
+    margin-right: 20px;
+    margin: auto;
+    width: 100px;
+    height: 100px;
+    cursor: pointer;
+    border-radius: 50%;
+}
+
+.linkURLS >a > img{
+    display: block;
+    width: 100px;
+    height: 100px;
+}
