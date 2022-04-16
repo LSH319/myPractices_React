@@ -1,9 +1,11 @@
-import { Link } from "react-router-dom";
+import Head from "../components/Head";
 
 function ETC(){
+
+    //GetDetails('etc');
     return(
         <div>
-            <Link to='/'>홈으로</Link>
+            <Head />
             기타 부분들
         </div>
     );

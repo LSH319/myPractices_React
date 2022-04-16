@@ -1,11 +1,14 @@
 import { Link, useParams } from "react-router-dom";
+import Head from "../components/Head";
 
 function Detail(){
     const {id} = useParams();
-    console.log(id);
+
+    //GetDetails(id);
+
     return(
         <div>
-            <Link to='/'>홈으로</Link>
+            <Head />
             <p>{id}에 관련한 내용들</p>
         </div>
     );

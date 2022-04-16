@@ -2,8 +2,11 @@ import { Swiper, SwiperSlide } from "swiper/react";
 
 import "swiper/css";
 import "swiper/css/effect-cards";
+import "swiper/css/navigation";
+
 import "../css/SwiperCSS.css";
-import { EffectCards } from "swiper";
+
+import { EffectCards, Navigation } from "swiper";
 import LinkURL from "./LinkURL";
 
 interface SwiperParameters{
@@ -16,8 +19,9 @@ function PracticeSwiper(props:SwiperParameters){
         <Swiper
             effect={"cards"}
             grabCursor={true}
-            modules={[EffectCards]}
+            modules={[EffectCards , Navigation]}
             className="mySwiper"
+            navigation = {true}
         >
             {props.titles.map((title) => (
                 <SwiperSlide key={title[0]}>
