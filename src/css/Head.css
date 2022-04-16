@@ -1,11 +1,17 @@
+
+
 .header > ul{
     list-style:none;
     padding-left:0px;
+    display: flex;
+    margin-bottom: 50px;
 }
 
 .header > ul > li{
     font-size: 20px;
     text-decoration: none;
+    margin-left: 40px;
+    margin-right: 40px;
 }
 
 .header > ul > li >a:link{
