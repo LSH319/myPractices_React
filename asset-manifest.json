@@ -1,15 +1,17 @@
 {
   "files": {
     "main.css": "/myPractices_React/static/css/main.f9f36606.css",
-    "main.js": "/myPractices_React/static/js/main.9a25ba39.js",
+    "main.js": "/myPractices_React/static/js/main.aea6318f.js",
     "static/js/787.5f0af702.chunk.js": "/myPractices_React/static/js/787.5f0af702.chunk.js",
+    "static/media/homepage_logo.png": "/myPractices_React/static/media/homepage_logo.323b1519976d76cbd34c.png",
+    "static/media/soomgo_logo.svg": "/myPractices_React/static/media/soomgo_logo.bb88d41ea9933f2d00415b587c88c8d0.svg",
     "index.html": "/myPractices_React/index.html",
     "main.f9f36606.css.map": "/myPractices_React/static/css/main.f9f36606.css.map",
-    "main.9a25ba39.js.map": "/myPractices_React/static/js/main.9a25ba39.js.map",
+    "main.aea6318f.js.map": "/myPractices_React/static/js/main.aea6318f.js.map",
     "787.5f0af702.chunk.js.map": "/myPractices_React/static/js/787.5f0af702.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.f9f36606.css",
-    "static/js/main.9a25ba39.js"
+    "static/js/main.aea6318f.js"
   ]
 }
